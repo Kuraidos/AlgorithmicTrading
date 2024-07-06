@@ -6,7 +6,7 @@ class ShouldReturnHehe(unittest.TestCase):
 
     def test_shouldReturnHehe(self):
         result = start()
-        self.assertEquals(result, "Hehe")
+        self.assertEquals(result, "Hehee")
 
 
 if __name__ == '__main__':
