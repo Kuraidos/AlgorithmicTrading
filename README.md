@@ -47,3 +47,7 @@ _06/07/2024_
 Seems like docker compose will do even-though it is not made for this purpose, but that is okay as later on I will be adding 
 a DB and would like run everything with single command. Seems like I will need to create a new directory or repository for 
 separation of concerns.
+
+Managed to run CI for automated tests, I could be doing CD by building docker image and uploading it, but I rather do some 
+coding instead of the project setup. Might need to do some planning on what exactly I want to do, need to find a strategy 
+and implement it even if it is bad.
