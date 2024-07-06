@@ -3,4 +3,4 @@ WORKDIR /usr/src/app
 COPY Pipfile .
 COPY src .
 RUN pip install pipenv && pipenv install
-CMD [ "pipenv", "run", "python", "-m", "flask", "--app", "algorithmic_trading/main", "run" ]
+CMD [ "pipenv", "run", "python", "-m", "flask", "--app", "algorithmic_trading/main", "run", "--host=0.0.0.0"]

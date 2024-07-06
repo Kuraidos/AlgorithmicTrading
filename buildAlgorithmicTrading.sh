@@ -1,0 +1,1 @@
+docker build -t algorithmic_trading:latest .

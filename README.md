@@ -35,9 +35,15 @@ I learned more about dependency management in Python and found two ways to manag
 requirements file, and using Pipenv with a Pipfile. Both files act like build.gradle in Java. The main difference is 
 that Pipenv allows you to set up a specific environment each time, ensuring consistency. In contrast, with the
 requirements.txt method, some dependencies can be updated, potentially leading to compatibility issues.
+https://python.land/deployment/containerize-your-project
 
 I had some issues debugging, as the error messages are not as informative as Java's, but I managed to dockerize and run 
 a simple Flask application following this resource. Currently, I am looking for a good way to run it with open ports 
 available to everyone. I could create a CMD script to run the required commands sequentially, but I will do some
 research before committing.
 
+_06/07/2024_
+
+Seems like docker compose will do even-though it is not made for this purpose, but that is okay as later on I will be adding 
+a DB and would like run everything with single command. Seems like I will need to create a new directory or repository for 
+separation of concerns.
